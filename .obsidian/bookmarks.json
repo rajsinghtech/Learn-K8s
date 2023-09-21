@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "type": "graph",
+      "ctime": 1695274407890,
+      "title": "Nodes Graph",
+      "options": {
+        "collapse-filter": false,
+        "search": "",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "path:\"Core Concepts/Master Node\"  path:",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "path:\"Core Concepts/Worker Node\" path: path:",
+            "color": {
+              "a": 1,
+              "rgb": 11657298
+            }
+          }
+        ],
+        "collapse-display": false,
+        "showArrow": false,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 3.42129720052083,
+        "lineSizeMultiplier": 4.16419270833333,
+        "collapse-forces": false,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 20,
+        "linkStrength": 1,
+        "linkDistance": 344,
+        "scale": 1,
+        "close": false
+      }
+    }
+  ]
+}
