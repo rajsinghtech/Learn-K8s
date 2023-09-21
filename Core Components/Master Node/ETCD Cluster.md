@@ -1,4 +1,3 @@
-
 ETCD is a crucial component in Kubernetes, serving as a distributed key-value store used for storing configuration data, state information, and metadata. It plays a fundamental role in maintaining the cluster's overall health and ensuring consistency among various Kubernetes nodes.
 
 In Kubernetes, ETCD is primarily responsible for:

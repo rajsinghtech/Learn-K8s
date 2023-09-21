@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Master Node/Master Nodes.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Master Node/Master Nodes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Master Node/Master Nodes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Master Node/Master Nodes.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "d56e61d70a56c5be",
   "lastOpenFiles": [
-    "Core Components/Master Node/kube-scheduler.md",
-    "Core Components/Master Node/Master Nodes.md",
-    "Core Components/Master Node/Controller-Manager.md",
-    "Core Components/Master Node/kube-apiserver.md",
     "Core Components/Master Node/ETCD Cluster.md",
+    "Core Components/Master Node/Master Nodes.md",
+    "Core Components/Master Node/kube-scheduler.md",
+    "Core Components/Master Node/kube-apiserver.md",
+    "Core Components/Master Node/Controller-Manager.md",
     "README.md",
     "Core Components/Worker Node/kubelet.md",
     "Core Components/Worker Node/kube-proxy.md",
