@@ -24,7 +24,7 @@ In this repository, I've curated a collection of resources, notes, and tutorials
 To access my Obsidian Vault and explore my Kubernetes journey:
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine.
-   `git clone https://github.com/your-username/cka-journey.git`
+   `git clone https://github.com/rajsinghtech/Learn-K8s.git`
 2. **Install Obsidian**: If you haven't already, download and install [Obsidian](https://obsidian.md/).
     
 3. **Open the Vault**: Inside the cloned repository, you will find a folder named "ObsidianVault." Open Obsidian and select "Open folder as vault." Choose the "ObsidianVault" folder from the repository as your vault.
