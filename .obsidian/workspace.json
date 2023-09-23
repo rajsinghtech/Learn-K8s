@@ -61,14 +61,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/Deployment.md",
+                "file": "Core Components/Elements/Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d1cc8113b0843439",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Elements/Namespaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c12f3064f5275916",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Elements/Pod.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12997f97a5ef67f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Ideologies/Imperative and Declarative Configuration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -134,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Elements/Deployment.md",
+                "file": "Core Components/Ideologies/Imperative and Declarative Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Elements/Deployment.md",
+                "file": "Core Components/Ideologies/Imperative and Declarative Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Elements/Deployment.md"
+                "file": "Core Components/Ideologies/Imperative and Declarative Configuration.md"
               }
             }
           }
@@ -195,8 +231,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77696da85389aaca",
+  "active": "12997f97a5ef67f5",
   "lastOpenFiles": [
+    "Core Components/Ideologies",
+    "Core Components/Elements/Pod.md",
+    "Core Components/Ideologies/Imperative and Declarative Configuration.md",
+    "Core Components/Elements/Resource Quota.md",
+    "Core Components/Elements/Namespaces.md",
     "Core Components/Elements/Services.md",
     "Core Components/Elements/Deployment.md",
     "Core Components/Elements/Labels and Selectors.md",
@@ -208,7 +249,6 @@
     "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Master Node/ETCD Cluster.md",
     "Core Components/Elements/Repl.md",
-    "Core Components/Elements/Pod.md",
     "Command Cheat Sheet.md",
     "Yaml Cheat Sheet.md",
     "README.md",
@@ -223,10 +263,6 @@
     "Core Components",
     "Core Concepts/Master Node/ETCD Cluster.md",
     "Core Concepts/Master Node/kube-apiserver.md",
-    "Core Concepts/Master Node/kube-scheduler.md",
-    "Core Concepts/Master Node/Master Nodes.md",
-    "Core Concepts/Worker Node/Container Runtime Engine.md",
-    "Core Concepts/Worker Node/kubelet.md",
     "Core Concepts/Worker Node",
     "Core Concepts/Master Node",
     "Core Concepts"
