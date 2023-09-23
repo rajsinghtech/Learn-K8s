@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e965a2c7bb46ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Elements/Deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77696da85389aaca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Elements/Deployment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Elements/Labels and Selectors.md",
+                "file": "Core Components/Elements/Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Elements/Labels and Selectors.md",
+                "file": "Core Components/Elements/Deployment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Elements/Labels and Selectors.md"
+                "file": "Core Components/Elements/Deployment.md"
               }
             }
           }
@@ -171,10 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ba309258e4d01a9",
+  "active": "77696da85389aaca",
   "lastOpenFiles": [
-    "Core Components/Elements/Replication Controller.md",
+    "Core Components/Elements/Services.md",
+    "Core Components/Elements/Deployment.md",
     "Core Components/Elements/Labels and Selectors.md",
+    "Core Components/Elements/Replication Controller.md",
     "Core Components/Elements/ReplicaSets.md",
     "Core Components/Master Node/Controller-Manager.md",
     "**Replication Controller**.md",
@@ -201,8 +227,6 @@
     "Core Concepts/Master Node/Master Nodes.md",
     "Core Concepts/Worker Node/Container Runtime Engine.md",
     "Core Concepts/Worker Node/kubelet.md",
-    "Core Concepts/Worker Node/kube-proxy.md",
-    "Core Concepts/Master Node/Controller-Manager.md",
     "Core Concepts/Worker Node",
     "Core Concepts/Master Node",
     "Core Concepts"
