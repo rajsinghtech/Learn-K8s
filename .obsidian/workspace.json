@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "295e681b5cc738b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ba309258e4d01a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Core Components/Elements/Labels and Selectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Core Components/Elements/Labels and Selectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Core Components/Elements/Labels and Selectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Core Components/Elements/Labels and Selectors.md"
               }
             }
           }
@@ -146,14 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d56e61d70a56c5be",
+  "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Master Node/ETCD Cluster.md",
-    "Core Components/Master Node/Master Nodes.md",
-    "Core Components/Master Node/kube-scheduler.md",
-    "Core Components/Master Node/kube-apiserver.md",
+    "Core Components/Elements/Replication Controller.md",
+    "Core Components/Elements/Labels and Selectors.md",
+    "Core Components/Elements/ReplicaSets.md",
     "Core Components/Master Node/Controller-Manager.md",
+    "**Replication Controller**.md",
+    "Core Components/Master Node/kube-apiserver.md",
+    "Core Components/Master Node/kube-scheduler.md",
+    "Core Components/Master Node/ETCD Cluster.md",
+    "Core Components/Elements/Repl.md",
+    "Core Components/Elements/Pod.md",
+    "Command Cheat Sheet.md",
+    "Yaml Cheat Sheet.md",
     "README.md",
+    "Core Components/Elements",
+    "Core Components/Master Node/Master Nodes.md",
     "Core Components/Worker Node/kubelet.md",
     "Core Components/Worker Node/kube-proxy.md",
     "Core Components/Worker Node/Worker Nodes.md",
@@ -169,7 +203,6 @@
     "Core Concepts/Worker Node/kubelet.md",
     "Core Concepts/Worker Node/kube-proxy.md",
     "Core Concepts/Master Node/Controller-Manager.md",
-    "Core Concepts/Worker Node/Worker Nodes.md",
     "Core Concepts/Worker Node",
     "Core Concepts/Master Node",
     "Core Concepts"

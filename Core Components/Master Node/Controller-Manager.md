@@ -2,9 +2,9 @@ In Kubernetes, the **Controller Manager** is one of the core components responsi
 
 Some of the key controllers managed by the Controller Manager include:
 
-- **Node Controller**: Monitors the state of nodes in the cluster and takes actions to maintain the desired node count.
-- **Replication Controller**: Ensures that the specified number of replicas for a pod is maintained in the cluster.
-- **Deployment Controller**: Manages the lifecycle of applications by creating and updating replica sets.
+- [Node Controller]: Monitors the state of nodes in the cluster and takes actions to maintain the desired node count.
+- [[Replication Controller]]: Ensures that the specified number of replicas for a pod is maintained in the cluster.
+- [[Deployment Controller]]: Manages the lifecycle of applications by creating and updating replica sets.
 - **StatefulSet Controller**: Maintains the stable and unique network identifiers for pods in a StatefulSet.
 - **DaemonSet Controller**: Ensures that a specific pod runs on all or selected nodes in the cluster.
 - **Job Controller**: Manages batch jobs, ensuring that they run to completion.
