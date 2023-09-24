@@ -37,22 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/ReplicaSets.md",
+                "file": "Core Components/Elements/Pod.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ef38feb0c7d57e6f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Core Components/Elements/Pod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Core Components/Elements/Pod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Core Components/Elements/Pod.md"
+              }
             }
           }
         ]
@@ -175,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef38feb0c7d57e6f",
+  "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Ideologies/Manual Scheduling.md",
+    "Core Components/Elements/DaemonSets.md",
+    "Core Components/Elements/Untitled.md",
     "Core Components/Elements/ReplicaSets.md",
+    "Core Components/Ideologies/Manual Scheduling.md",
     "Core Components/Ideologies/Taints and Tolerations.md",
     "Core Components/Ideologies/Resource Requirements and Limits.md",
     "Core Components/Ideologies/Node Affinity.md",
@@ -203,8 +201,6 @@
     "Core Components/Elements/Repl.md",
     "Core Components/Elements",
     "Core Components/Master Node/Master Nodes.md",
-    "Core Components/Worker Node/kubelet.md",
-    "Core Components/Worker Node/kube-proxy.md",
     "Core Components/Worker Node",
     "Core Components/Master Node",
     "Core Components",
