@@ -12,3 +12,6 @@ With manual scheduling, you can:
 Manual scheduling is typically achieved by specifying these requirements and preferences within a Kubernetes YAML manifest for a pod. This level of control can be valuable in complex or specialized environments where automatic scheduling may not meet specific needs. However, it also requires a deeper understanding of the cluster's architecture and resource availability to make informed decisions about where to place workloads.
 
 Keep in mind that while manual scheduling offers greater control, it may require ongoing maintenance and monitoring to ensure optimal resource utilization and performance within the cluster.
+
+[[kube-scheduler]]
+[[Pod]]

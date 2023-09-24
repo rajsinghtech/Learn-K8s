@@ -13,7 +13,7 @@ ReplicaSets define the following key attributes:
 ReplicaSets are typically used for stateless applications that can be easily scaled horizontally by adding or removing identical pods. When a ReplicaSet is used, it ensures that the specified number of replicas is maintained even in the face of pod failures or node outages.
 
 Additional notes:
-Ran by **Replication Controller** - [[kube-scheduler]] - Spans across multiple nodes
+Ran by **Replication Controller** - Spans across multiple nodes
 
 ``` YAML
 apiVersion: apps/v1
@@ -38,3 +38,5 @@ spec:
       - name: php-redis
         image: gcr.io/google_samples/gb-frontend:v3
 ```
+
+[[Pod]]

@@ -14,4 +14,4 @@ Key points about Kubernetes namespaces:
 
 - **Default Namespace**: Kubernetes also provides a default namespace, often named "default." Resources that are not explicitly assigned to a namespace are placed in the default namespace.
 
-Namespaces are a fundamental concept in Kubernetes, providing a way to maintain order and organization in a Kubernetes cluster, especially when dealing with large-scale and multi-tenant environments.
+Namespaces are a fundamental concept in Kubernetes, providing a way to maintain order and organization in a Kubernetes cluster, especially when dealing with large-scale and multi-tenant environments. ^b18395

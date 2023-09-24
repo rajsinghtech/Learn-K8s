@@ -37,86 +37,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/Labels and Selectors.md",
+                "file": "Core Components/Elements/ReplicaSets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2e965a2c7bb46ccd",
+            "id": "ef38feb0c7d57e6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Elements/Deployment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77696da85389aaca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Elements/Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1cc8113b0843439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Elements/Namespaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c12f3064f5275916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Elements/Pod.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12997f97a5ef67f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Ideologies/Imperative and Declarative Configuration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5327a09d065e6799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Core Components/Ideologies/Taints and Tolerations.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Ideologies/Taints and Tolerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Ideologies/Taints and Tolerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Core Components/Ideologies/Taints and Tolerations.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -243,40 +175,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5327a09d065e6799",
+  "active": "ef38feb0c7d57e6f",
   "lastOpenFiles": [
-    "Command Cheat Sheet.md",
-    "Core Components/Ideologies/Taints and Tolerations.md",
-    "Core Components/Elements/Labels and Selectors.md",
-    "Core Components/Ideologies/Imperative and Declarative Configuration.md",
-    "Core Components/Ideologies/Scheduling.md",
-    "Yaml Cheat Sheet.md",
-    "README.md",
-    "Untitled",
-    "Core Components/Ideologies",
-    "Core Components/Elements/Pod.md",
-    "Core Components/Elements/Resource Quota.md",
-    "Core Components/Elements/Namespaces.md",
-    "Core Components/Elements/Services.md",
-    "Core Components/Elements/Deployment.md",
-    "Core Components/Elements/Replication Controller.md",
+    "Core Components/Ideologies/Manual Scheduling.md",
     "Core Components/Elements/ReplicaSets.md",
+    "Core Components/Ideologies/Taints and Tolerations.md",
+    "Core Components/Ideologies/Resource Requirements and Limits.md",
+    "Core Components/Ideologies/Node Affinity.md",
+    "Core Components/Ideologies/Imperative and Declarative Configuration.md",
+    "Core Components/Master Node/kube-scheduler.md",
+    "Command Cheat Sheet.md",
+    "Core Components/Elements/Deployment.md",
+    "README.md",
+    "Core Components/Elements/Pod.md",
+    "Core Components/Elements/Namespaces.md",
+    "Core Components/Elements/Resource Quota.md",
+    "Core Components/Elements/Services.md",
+    "Core Components/Elements/Replication Controller.md",
+    "Core Components/Ideologies",
+    "Yaml Cheat Sheet.md",
+    "Core Components/Elements/Labels and Selectors.md",
+    "Cheat Sheet.md",
     "Core Components/Master Node/Controller-Manager.md",
     "**Replication Controller**.md",
     "Core Components/Master Node/kube-apiserver.md",
-    "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Master Node/ETCD Cluster.md",
     "Core Components/Elements/Repl.md",
     "Core Components/Elements",
     "Core Components/Master Node/Master Nodes.md",
     "Core Components/Worker Node/kubelet.md",
     "Core Components/Worker Node/kube-proxy.md",
-    "Core Components/Worker Node/Worker Nodes.md",
-    "Core Components/Worker Node/Container Runtime Engine.md",
     "Core Components/Worker Node",
     "Core Components/Master Node",
     "Core Components",
-    "Core Concepts/Master Node/ETCD Cluster.md",
     "Core Concepts/Worker Node",
     "Core Concepts/Master Node",
     "Core Concepts"

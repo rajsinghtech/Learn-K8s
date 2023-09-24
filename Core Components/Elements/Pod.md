@@ -16,3 +16,7 @@ spec:
 - `k get pods -o wide -A` - Get all pods in all namespace with extra columns
 - `k get pods NAME_OF_POD -o yaml` - Output config of pod in yaml
 - `k run NAME_OF_POD --image=nginx` - Run a pod
+
+[[Resource Requirements and Limits]]
+[[Node Affinity]]
+[[Taints and Tolerations]]

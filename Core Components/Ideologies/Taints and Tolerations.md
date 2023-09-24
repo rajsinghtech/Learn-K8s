@@ -25,3 +25,5 @@ tolerations:
   value: "value1"
   effect: "NoSchedule"
 ```
+
+[[kube-scheduler]]

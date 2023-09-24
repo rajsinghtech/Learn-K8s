@@ -21,3 +21,5 @@ There are different types of Kubernetes Services:
 - **ExternalName:** This type allows mapping a Service to a DNS name. It's often used to connect to external services using Kubernetes' DNS resolution.
 
 In summary, Kubernetes Services abstract the networking layer, making it easier for applications to communicate with each other reliably and efficiently in a dynamic containerized environment. The choice of Service type depends on the specific use case and the level of external access required.
+
+[[Pod]]

@@ -25,3 +25,5 @@ spec:
     limits.memory: 2Gi
     requests.nvidia.com/gpu: 4
 ```
+
+[[Namespaces]]
