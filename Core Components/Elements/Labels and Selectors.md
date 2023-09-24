@@ -40,3 +40,6 @@ spec:
 In this Service configuration, the "selector" field specifies that it should route traffic to pods labeled with "app: web." Any pods with this label will be considered as targets for the Service.
 
 In summary, Labels are key-value pairs attached to Kubernetes resources for categorization, while Selectors are used to filter and target resources based on these labels, enabling dynamic management and organization of objects within a Kubernetes cluster.
+
+- `k get pods --selector env=dev` - Select by labels
+- `k get all --selector env=prod` - Get all selector

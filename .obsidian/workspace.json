@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Ideologies/Scheduling.md",
+                "file": "Core Components/Ideologies/Taints and Tolerations.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Ideologies/Scheduling.md",
+                "file": "Core Components/Ideologies/Taints and Tolerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Ideologies/Scheduling.md",
+                "file": "Core Components/Ideologies/Taints and Tolerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Ideologies/Scheduling.md"
+                "file": "Core Components/Ideologies/Taints and Tolerations.md"
               }
             }
           }
@@ -245,8 +245,13 @@
   },
   "active": "5327a09d065e6799",
   "lastOpenFiles": [
+    "Command Cheat Sheet.md",
+    "Core Components/Ideologies/Taints and Tolerations.md",
+    "Core Components/Elements/Labels and Selectors.md",
     "Core Components/Ideologies/Imperative and Declarative Configuration.md",
     "Core Components/Ideologies/Scheduling.md",
+    "Yaml Cheat Sheet.md",
+    "README.md",
     "Untitled",
     "Core Components/Ideologies",
     "Core Components/Elements/Pod.md",
@@ -254,7 +259,6 @@
     "Core Components/Elements/Namespaces.md",
     "Core Components/Elements/Services.md",
     "Core Components/Elements/Deployment.md",
-    "Core Components/Elements/Labels and Selectors.md",
     "Core Components/Elements/Replication Controller.md",
     "Core Components/Elements/ReplicaSets.md",
     "Core Components/Master Node/Controller-Manager.md",
@@ -263,9 +267,6 @@
     "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Master Node/ETCD Cluster.md",
     "Core Components/Elements/Repl.md",
-    "Command Cheat Sheet.md",
-    "Yaml Cheat Sheet.md",
-    "README.md",
     "Core Components/Elements",
     "Core Components/Master Node/Master Nodes.md",
     "Core Components/Worker Node/kubelet.md",
@@ -276,7 +277,6 @@
     "Core Components/Master Node",
     "Core Components",
     "Core Concepts/Master Node/ETCD Cluster.md",
-    "Core Concepts/Master Node/kube-apiserver.md",
     "Core Concepts/Worker Node",
     "Core Concepts/Master Node",
     "Core Concepts"

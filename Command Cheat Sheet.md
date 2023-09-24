@@ -74,3 +74,5 @@ Use "kubectl options" for a list of global command-line options (applies to all 
 - `k get pods -o wide -A` - Get all pods in all namespace with extra columns
 - `k get pods NAME_OF_POD -o yaml` - Output config of pod in yaml
 - `k run NAME_OF_POD --image=nginx` - Run a pod 
+- `k get pods --selector env=dev` - Select by labels
+- `k get all --selector env=prod` - Get all selector
