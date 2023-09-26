@@ -1,3 +1,4 @@
+#Scheduler
 In Kubernetes, resource requirements and limits are used to define the computing resources (CPU and memory) that a containerized application or pod needs and the maximum resources it can consume, respectively. These specifications help Kubernetes schedule and manage resources effectively, ensuring fair resource allocation and preventing resource hogging by individual pods. Here's an explanation and example YAML templates for setting resource requirements and limits:
 
 ### Resource Requirements

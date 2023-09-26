@@ -1,3 +1,4 @@
+#Scheduler
 ## Manual Scheduling 
 Manual scheduling in Kubernetes refers to the process of explicitly specifying where and how a containerized application or workload should run within a Kubernetes cluster. Unlike the default behavior of Kubernetes, which relies on its scheduler to automatically determine the optimal placement of workloads based on resource availability and constraints, manual scheduling gives administrators or users more control over the placement of pods (groups of containers) on specific nodes (cluster machines).
 
