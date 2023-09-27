@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Ideologies/Logging.md",
+                "file": "Core Components/Elements/ConfigMap.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Ideologies/Logging.md",
+                "file": "Core Components/Elements/ConfigMap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Ideologies/Logging.md",
+                "file": "Core Components/Elements/ConfigMap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Ideologies/Logging.md"
+                "file": "Core Components/Elements/ConfigMap.md"
               }
             }
           }
@@ -173,15 +173,17 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Master Node/kube-scheduler.md",
+    "Core Components/Elements/Labels and Selectors.md",
+    "Core Components/Elements/ConfigMap.md",
+    "Core Components/Elements/Untitled",
+    "Core Components/Elements/Pod.md",
+    "Core Components/Ideologies/Deployment Strategy.md",
     "Core Components/Ideologies/Logging.md",
+    "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Ideologies/Manual Scheduling.md",
     "Core Components/Ideologies/Resource Requirements and Limits.md",
     "Core Components/Elements/Resource Quota.md",
-    "Core Components/Elements/Labels and Selectors.md",
-    "Core Components/Elements/Pod.md",
     "Core Components/Elements/DaemonSets.md",
-    "Core Components/Elements/Untitled.md",
     "Core Components/Elements/ReplicaSets.md",
     "Core Components/Ideologies/Taints and Tolerations.md",
     "Core Components/Ideologies/Node Affinity.md",
@@ -198,8 +200,6 @@
     "Core Components/Master Node/Controller-Manager.md",
     "**Replication Controller**.md",
     "Core Components/Master Node/kube-apiserver.md",
-    "Core Components/Master Node/ETCD Cluster.md",
-    "Core Components/Elements/Repl.md",
     "Core Components/Elements",
     "Core Components/Worker Node",
     "Core Components/Master Node",
