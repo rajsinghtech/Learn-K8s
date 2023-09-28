@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "Core Components/Ideologies/Upgrades.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "Core Components/Ideologies/Upgrades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "Core Components/Ideologies/Upgrades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Elements/Pod.md"
+                "file": "Core Components/Ideologies/Upgrades.md"
               }
             }
           }
@@ -173,11 +173,13 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
+    "Core Components/Ideologies/Drain Nodes.md",
+    "Core Components/Ideologies/Upgrades.md",
+    "Core Components/Elements/Pod.md",
     "Core Components/Elements/Secrets.md",
     "Core Components/Elements/ConfigMap.md",
     "Core Components/Elements/Labels and Selectors.md",
     "Core Components/Elements/Untitled",
-    "Core Components/Elements/Pod.md",
     "Core Components/Ideologies/Deployment Strategy.md",
     "Core Components/Ideologies/Logging.md",
     "Core Components/Master Node/kube-scheduler.md",
@@ -199,8 +201,6 @@
     "Yaml Cheat Sheet.md",
     "Cheat Sheet.md",
     "Core Components/Master Node/Controller-Manager.md",
-    "**Replication Controller**.md",
-    "Core Components/Master Node/kube-apiserver.md",
     "Core Components/Elements",
     "Core Components/Worker Node",
     "Core Components/Master Node",
