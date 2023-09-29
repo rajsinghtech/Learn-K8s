@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Ideologies/Upgrades.md",
+                "file": "Core Components/Ideologies/ETCD Backup Restore.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Ideologies/Upgrades.md",
+                "file": "Core Components/Ideologies/ETCD Backup Restore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Ideologies/Upgrades.md",
+                "file": "Core Components/Ideologies/ETCD Backup Restore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Ideologies/Upgrades.md"
+                "file": "Core Components/Ideologies/ETCD Backup Restore.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Ideologies/Drain Nodes.md",
     "Core Components/Ideologies/Upgrades.md",
+    "Core Components/Ideologies/ETCD Backup Restore.md",
+    "Core Components/Ideologies/Drain Nodes.md",
     "Core Components/Elements/Pod.md",
     "Core Components/Elements/Secrets.md",
     "Core Components/Elements/ConfigMap.md",
@@ -200,7 +201,6 @@
     "Core Components/Ideologies",
     "Yaml Cheat Sheet.md",
     "Cheat Sheet.md",
-    "Core Components/Master Node/Controller-Manager.md",
     "Core Components/Elements",
     "Core Components/Worker Node",
     "Core Components/Master Node",
