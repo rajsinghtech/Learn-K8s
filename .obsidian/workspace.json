@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Ideologies/KubeConfig.md",
+                "file": "Core Components/Elements/Service Account.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Ideologies/KubeConfig.md",
+                "file": "Core Components/Elements/Service Account.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Ideologies/KubeConfig.md",
+                "file": "Core Components/Elements/Service Account.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Ideologies/KubeConfig.md"
+                "file": "Core Components/Elements/Service Account.md"
               }
             }
           }
@@ -173,8 +173,11 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Ideologies/Critical Component Certificates.md",
+    "Core Components/Elements/Roles.md",
+    "Core Components/Elements/Service Account.md",
+    "Core Components/Ideologies/API Groups.md",
     "Core Components/Ideologies/KubeConfig.md",
+    "Core Components/Ideologies/Critical Component Certificates.md",
     "Core Components/Ideologies/ETCD Backup Restore.md",
     "Core Components/Ideologies/Upgrades.md",
     "Core Components/Ideologies/Drain Nodes.md",
@@ -197,9 +200,6 @@
     "Command Cheat Sheet.md",
     "Core Components/Elements/Deployment.md",
     "README.md",
-    "Core Components/Elements/Namespaces.md",
-    "Core Components/Elements/Services.md",
-    "Core Components/Elements/Replication Controller.md",
     "Core Components/Ideologies",
     "Core Components/Elements",
     "Core Components/Worker Node",
