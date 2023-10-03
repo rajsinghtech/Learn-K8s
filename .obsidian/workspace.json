@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/Persistent Volumes.md",
+                "file": "Core Components/Elements/Storage Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Elements/Persistent Volumes.md",
+                "file": "Core Components/Elements/Storage Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Elements/Persistent Volumes.md",
+                "file": "Core Components/Elements/Storage Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Elements/Persistent Volumes.md"
+                "file": "Core Components/Elements/Storage Class.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
-    "Core Components/Elements/Network Policy.md",
     "Core Components/Elements/Persistent Volumes.md",
+    "Core Components/Elements/Storage Class.md",
+    "Core Components/Elements/Network Policy.md",
     "Core Components/Ideologies/Security Context.md",
     "Core Components/Elements/Service Account.md",
     "Core Components/Elements/Roles.md",
@@ -199,7 +200,6 @@
     "Core Components/Elements/ReplicaSets.md",
     "Core Components/Ideologies/Taints and Tolerations.md",
     "Core Components/Ideologies/Node Affinity.md",
-    "Core Components/Ideologies/Imperative and Declarative Configuration.md",
     "Core Components/Ideologies",
     "Core Components/Elements",
     "Core Components/Worker Node",
