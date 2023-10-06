@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Core Components/Elements/Pod.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Core Components/Elements/Pod.md"
+                "file": "README.md"
               }
             }
           }
@@ -173,6 +173,7 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
+    "Core Components/Elements/Pod.md",
     "Core Components/Elements/Ingress.md",
     "Core Components/Ideologies/CoreDNS.md",
     "Core Components/Ideologies/CNI.md",
@@ -188,7 +189,6 @@
     "Core Components/Ideologies/ETCD Backup Restore.md",
     "Core Components/Ideologies/Upgrades.md",
     "Core Components/Ideologies/Drain Nodes.md",
-    "Core Components/Elements/Pod.md",
     "Core Components/Elements/Secrets.md",
     "Core Components/Elements/ConfigMap.md",
     "Core Components/Elements/Labels and Selectors.md",
