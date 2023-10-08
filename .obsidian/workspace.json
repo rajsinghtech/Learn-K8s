@@ -42,9 +42,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e81f6bee6eac5f17",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "26901b6d375a85dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CKA Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "CKA Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CKA Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "CKA Cheat Sheet.md"
               }
             }
           }
@@ -171,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ba309258e4d01a9",
+  "active": "26901b6d375a85dc",
   "lastOpenFiles": [
+    "Yaml Cheat Sheet.md",
+    "CKA Cheat Sheet.md",
     "Core Components/Elements/Pod.md",
     "Core Components/Elements/Ingress.md",
     "Core Components/Ideologies/CoreDNS.md",
@@ -198,8 +222,6 @@
     "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Ideologies/Manual Scheduling.md",
     "Core Components/Ideologies/Resource Requirements and Limits.md",
-    "Core Components/Elements/Resource Quota.md",
-    "Core Components/Elements/DaemonSets.md",
     "Core Components/Ideologies",
     "Core Components/Elements",
     "Core Components/Worker Node",
