@@ -20,41 +20,7 @@
             }
           },
           {
-            "id": "295e681b5cc738b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command Cheat Sheet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2ba309258e4d01a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e81f6bee6eac5f17",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
-            "id": "26901b6d375a85dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26901b6d375a85dc",
+  "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
+    "README.md",
+    "Command Cheat Sheet.md",
     "Yaml Cheat Sheet.md",
     "CKA Cheat Sheet.md",
     "Core Components/Elements/Pod.md",
@@ -220,8 +188,6 @@
     "Core Components/Ideologies/Deployment Strategy.md",
     "Core Components/Ideologies/Logging.md",
     "Core Components/Master Node/kube-scheduler.md",
-    "Core Components/Ideologies/Manual Scheduling.md",
-    "Core Components/Ideologies/Resource Requirements and Limits.md",
     "Core Components/Ideologies",
     "Core Components/Elements",
     "Core Components/Worker Node",

@@ -3,7 +3,7 @@
 Welcome to my CKA (Certified Kubernetes Administrator) journey repository! Here, I document my learning path and resources as I work towards becoming a Kubernetes expert. I have organized everything within an Obsidian Vault for a structured and organized learning experience.
 
 # Youtube Videos
-- Practice Exam 1:  https://youtu.be/-cd4Uob-YcY
+- Practice Exam 1:  https://youtu.be/SXqcT2CP18s?si=ZXutVZ4StIqwPmWe
 
 
 ## Table of Contents
