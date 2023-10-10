@@ -12,6 +12,7 @@ ETCD Restore
 ETCDCTL_API=3 etcdctl snapshot restore --data-dir <data-dir-location> snapshotdb
 ```
 # Roles
+## Creating Users
 Solution manifest file to create a CSR as follows:
 
 ```yaml
@@ -43,6 +44,47 @@ To verify the permission from kubectl utility tool:
 
 ```sh
 $ kubectl auth can-i update pods --as=john --namespace=development
+```
+
+## Service accounts to pods
+Pods authenticate to the API Server using ServiceAccounts. If the serviceAccount name is not specified, the default service account for the namespace is used during a pod creation.  
+  
+Reference: `https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/`
+
+Now, create a service account `pvviewer`:
+
+```sh
+kubectl create serviceaccount pvviewer
+```
+
+To create a clusterrole:
+
+```sh
+kubectl create clusterrole pvviewer-role --resource=persistentvolumes --verb=list
+```
+
+To create a clusterrolebinding:
+
+```sh
+kubectl create clusterrolebinding pvviewer-role-binding --clusterrole=pvviewer-role --serviceaccount=default:pvviewer
+```
+
+Solution manifest file to create a new pod called `pvviewer` as follows:
+
+```yaml
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: pvviewer
+  name: pvviewer
+spec:
+  containers:
+  - image: redis
+    name: pvviewer
+  # Add service account name
+  serviceAccountName: pvviewer
 ```
 # Service Checking within cluster
 To create a pod `test-nslookup`. Test that you are able to look up the service and pod names from within the cluster:
@@ -96,3 +138,95 @@ spec:
       persistentVolumeClaim:
         claimName: my-pvc
 ```
+
+# Pod
+## Run user as pod
+Solution manifest file to create a pod called `non-root-pod` as follows:
+
+```yaml
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: non-root-pod
+spec:
+  securityContext:
+    runAsUser: 1000
+    fsGroup: 2000
+  containers:
+  - name: non-root-pod
+    image: redis:alpine
+```
+
+Verify the user and group IDs by using below command:
+
+```
+kubectl exec -it non-root-pod -- id
+```
+
+## Taint Nodes and Pods
+To add taints on the `node01` worker node:
+
+```sh
+kubectl taint node node01 env_type=production:NoSchedule
+```
+
+Now, deploy `dev-redis` pod and to ensure that workloads are not scheduled to this `node01` worker node.
+
+```sh
+kubectl run dev-redis --image=redis:alpine
+```
+
+To view the node name of recently deployed pod:
+
+```sh
+kubectl get pods -o wide
+```
+
+Solution manifest file to deploy new pod called `prod-redis` with toleration to be scheduled on `node01` worker node.
+
+```yaml
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prod-redis
+spec:
+  containers:
+  - name: prod-redis
+    image: redis:alpine
+  tolerations:
+  - effect: NoSchedule
+    key: env_type
+    operator: Equal
+    value: production     
+```
+
+To view only `prod-redis` pod with less details:
+
+```sh
+kubectl get pods -o wide | grep prod-redis
+```
+# Network
+## Network Policy
+Solution manifest file to create a network policy `ingress-to-nptest` as follows:
+
+```yaml
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ingress-to-nptest
+  namespace: default
+spec:
+  podSelector:
+    matchLabels:
+      run: np-test-1
+  policyTypes:
+  - Ingress
+  ingress:
+  - ports:
+    - protocol: TCP
+      port: 80
+```
+
