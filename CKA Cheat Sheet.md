@@ -1,3 +1,4 @@
+	This sheet contains all tricky aspects I have found around the CKA.
 # ETCD
 ## When to backup and restore?
 
@@ -229,4 +230,5 @@ spec:
     - protocol: TCP
       port: 80
 ```
+
 
