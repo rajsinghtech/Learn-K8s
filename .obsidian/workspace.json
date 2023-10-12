@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKA Cheat Sheet.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CKA Cheat Sheet.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CKA Cheat Sheet.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CKA Cheat Sheet.md"
+                "file": "README.md"
               }
             }
           }
@@ -161,10 +161,10 @@
   },
   "active": "2ba309258e4d01a9",
   "lastOpenFiles": [
+    "CKA Cheat Sheet.md",
     "README.md",
     "Command Cheat Sheet.md",
     "Yaml Cheat Sheet.md",
-    "CKA Cheat Sheet.md",
     "Core Components/Elements/Pod.md",
     "Core Components/Elements/Ingress.md",
     "Core Components/Ideologies/CoreDNS.md",
