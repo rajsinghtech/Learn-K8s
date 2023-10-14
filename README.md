@@ -4,6 +4,8 @@ Welcome to my CKA (Certified Kubernetes Administrator) journey repository! Here,
 
 # Youtube Videos
 - Practice Exam 1:  https://youtu.be/SXqcT2CP18s?si=ZXutVZ4StIqwPmWe
+- Practice Exam 2: WIP
+- Practice Exam 3: WIP
 ## About Kubernetes
 
 Kubernetes is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It provides a robust and flexible infrastructure for deploying, managing, and scaling applications in containers. Understanding Kubernetes is essential for anyone working in the field of DevOps, containerization, or cloud-native development.
