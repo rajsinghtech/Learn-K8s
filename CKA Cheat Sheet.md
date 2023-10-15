@@ -213,7 +213,6 @@ kubectl get pods -o wide | grep prod-redis
 Solution manifest file to create a network policy `ingress-to-nptest` as follows:
 
 ```yaml
----
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
@@ -230,5 +229,4 @@ spec:
     - protocol: TCP
       port: 80
 ```
-
 
