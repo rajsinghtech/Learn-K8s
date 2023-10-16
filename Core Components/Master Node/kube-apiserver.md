@@ -3,4 +3,4 @@
 This component exposes the Kubernetes API, which allows users, applications, and other Kubernetes components to communicate and interact with the cluster. It also enforces security policies and manages access control to ensure that only authorized entities can make changes to the cluster's state.
 
 Request Flow
-Authenticate User -> Validate -> Retrieve Data -> Update ETCD -> Scheduler -> Kubelet
+Authenticate User -> Validate -> Retrieve Data -> Update ETCD -> Scheduler -> [[Kubelet]]

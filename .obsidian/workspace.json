@@ -11,12 +11,8 @@
             "id": "d56e61d70a56c5be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -25,14 +21,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CKA Cheat Sheet.md",
+                "file": "Core Components/Worker Node/kubelet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CKA Cheat Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CKA Cheat Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CKA Cheat Sheet.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,9 +150,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ba309258e4d01a9",
+  "active": "d56e61d70a56c5be",
   "lastOpenFiles": [
+    "Core Components/Worker Node/Worker Nodes.md",
     "README.md",
+    "Core Components/Worker Node/kubelet.md",
+    "Core Components/Master Node/kube-apiserver.md",
+    "Untitled.canvas",
     "CKA Cheat Sheet.md",
     "Command Cheat Sheet.md",
     "Yaml Cheat Sheet.md",
@@ -185,9 +180,6 @@
     "Core Components/Elements/ConfigMap.md",
     "Core Components/Elements/Labels and Selectors.md",
     "Core Components/Elements/Untitled",
-    "Core Components/Ideologies/Deployment Strategy.md",
-    "Core Components/Ideologies/Logging.md",
-    "Core Components/Master Node/kube-scheduler.md",
     "Core Components/Ideologies",
     "Core Components/Elements",
     "Core Components/Worker Node",
