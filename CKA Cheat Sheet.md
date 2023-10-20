@@ -280,3 +280,5 @@ spec:
       port: 80
 ```
 
+ingress is traffic entering pod 
+egress is traffic exiting pod
